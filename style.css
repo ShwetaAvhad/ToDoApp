@@ -1,0 +1,75 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+body
+{
+    /*background-color :beige;*/
+    background-color: rgb(230, 129, 149);
+    font-family:serif;
+}
+.heading
+{
+    text-align: center;
+}
+.todo-container
+{
+    /*background-color:darksalmon;*/
+    background-color:rgb(243, 229, 211);
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 20%;
+}
+.container1
+{    
+  text-align: center;
+}
+.container1 input
+{
+    font-size: 1em;
+    border: none;
+    padding: 1%;
+    border-radius:3px ;
+    color: black;
+    width: 40%;
+}
+.container1 input:hover
+{
+    border:2px solid rgb(153, 153, 204);
+}
+.container1 button
+{
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 1%;
+    width: 13%;
+}
+.container2,.container3
+{
+    padding: 3%;
+    width: 100%;
+}
+ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+li
+{
+    border: 1px solid rgb(177, 173, 159);
+    border-radius: 3px;
+    width: 92%;
+    padding: 2%;
+    font-size: 18px;;
+}
+.container3 h5
+{
+  text-align: center;
+}
